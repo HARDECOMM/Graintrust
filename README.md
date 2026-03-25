@@ -1,4 +1,4 @@
-[Production Url]([assets/img.drawio.png](https://graintrust.vercel.app/)
+[Production Url](https://graintrust.vercel.app/)
 
 # 🌾 GrainTrust AI: Securing the Rice Supply Chain
 
