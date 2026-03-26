@@ -4,11 +4,11 @@
 
 - Download the **rice_field_image** in the repo or from online source
 - Register as a farmer or mill with your details or sign in with:
-    - - Email: farmer@gmail.com for *farmer*
-      - password: 427893
+  - Email: farmer@gmail.com for *farmer*
+  - password: 427893
 
-    - - Email: mill@gmail.com for *mill*
-      - - password: 427893
+  - Email: mill@gmail.com for *mill*
+      - password: 427893
 - update your profile for payment as farmer and list your rice to sell by first scan the **rice field image** to get insight for harvest readiness, and other field for other information.
 - While going through the app ensure you observe end to end notification on the header.
 ---
