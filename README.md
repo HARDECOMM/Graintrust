@@ -3,7 +3,7 @@
 ## To test the mvp 
 
 - Download the **rice_field_image** in the repo or from online source
-- Register as a farmer or mill with your details sign in with:
+- Register as a farmer or mill with your details or sign in with:
     - - farmer@gmail.com for *farmer*
     - - mill@gmail.com for *mill*
 - update your profile for payment as farmer and list your rice to sell by first scan the **rice field image** to get insight for harvest readiness, and other field for other information.
