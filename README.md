@@ -5,7 +5,7 @@
 - Download the **rice_field_image** in the repo or from online source
 - Register as a farmer or mill with your details or sign in with:
   - Email: farmer@gmail.com for *farmer*
-  - password: 427893
+      - password: 427893
 
   - Email: mill@gmail.com for *mill*
       - password: 427893
