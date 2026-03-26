@@ -1,5 +1,15 @@
 [Production Url](https://graintrust.vercel.app/)
 
+## To test the mvp 
+
+- Download the **rice_field_image** in the repo or from online source
+- Register as a farmer or mill with your details sign in with:
+    - - farmer@gmail.com for *farmer*
+    - - mill@gmail.com for *mill*
+- update your profile for payment as farmer and list your rice to sell by first scan the **rice field image** to get insight for harvest readiness, and other field for other information.
+- While going through the app ensure you observe end to end notification on the header.
+---
+
 # 🌾 GrainTrust AI: Securing the Rice Supply Chain
 
 **GrainTrust AI** is a full-stack Agri-FinTech platform designed to bridge the trust gap between smallholder farmers and grain mills in Nigeria. By combining **AI-powered quality verification** with **secure Interswitch escrow payments**, we ensure transparent, fair, and efficient trading.
