@@ -28,6 +28,7 @@ All protected routes require a **JWT Bearer Token** in the `Authorization` heade
 | `/api/auth/register` | `POST` | Register a new user | Any |
 | `/api/auth/login` | `POST` | Login and receive JWT | Any |
 | `/api/auth/profile` | `GET` | Get current user details | Auth Required |
+| `/api/auth/profile` | `PUT` | Update user profile (Bank details, preferences) | Auth Required |
 
 ---
 
@@ -35,13 +36,13 @@ All protected routes require a **JWT Bearer Token** in the `Authorization` heade
 
 | Endpoint | Method | Description |
 | :--- | :--- | :--- |
-| `/api/grains/scan-field` | `POST` | AI analysis of field photo for yield prediction |
-| `/api/grains/visualize` | `POST` | AI generation of professional grain imagery |
 | `/api/grains` | `POST` | Create a new grain listing |
 | `/api/grains` | `GET` | List all available grains (Marketplace) |
 | `/api/grains/my-listings` | `GET` | List grains owned by the logged-in farmer |
 | `/api/grains/:id` | `PUT` | Update a grain listing |
 | `/api/grains/:id` | `DELETE` | Delete a grain listing |
+
+> **Note**: AI Field Scanning and Grain Visualization are now handled directly on the **Frontend** using the Gemini SDK for lower latency and better UX.
 
 ---
 
@@ -53,6 +54,7 @@ All protected routes require a **JWT Bearer Token** in the `Authorization` heade
 | `/api/escrow/verify/:grainId` | `POST` | AI Quality Scan of delivered grains |
 | `/api/escrow/disburse/:grainId` | `POST` | Release funds to Farmer's bank account |
 | `/api/escrow/my-escrows` | `GET` | View active escrow transactions |
+| `/api/escrow/callback` | `POST` | Interswitch Webhook Callback (Payment confirmation) |
 
 ---
 
