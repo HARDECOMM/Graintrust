@@ -699,7 +699,7 @@ const FarmerDashboard = () => {
               <div className="p-8 space-y-8">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-6 bg-gray-50 rounded-3xl border border-gray-100 flex flex-col items-center text-center">
-                    <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Grain Maturity</p>
+                    <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Rice Maturity</p>
                     <p className="text-3xl font-black text-dark">{yieldReportData.maturity}%</p>
                     <div className="w-full bg-gray-200 h-1 rounded-full mt-4 overflow-hidden">
                       <motion.div 
